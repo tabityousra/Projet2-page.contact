@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Comfortaa', cursive;
+    height: fit-content;
+}
+
+ul{
+    list-style-type:none ;
+}
+header{
+    background:#a16cdf;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+}
+header img{
+    float: left;
+    padding: 10px 30px;
+}
+header ul{
+    float: left;
+    padding-top: 29px;
+    padding-bottom: 20.5px;
+}
+header ul li{
+    color: white;
+    padding: 10px 20px;
+    display: inline-block;
+
+}
+.btns{
+    float: right;
+    margin: 20px 30px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.btn-1{
+    color: white;
+    padding: 1rem 3rem 1rem;
+    border-radius: 10px;
+    border: none;
+    background: #070347;
+}
+.btn-2{
+    color: white;
+    padding: 1rem 3rem 0.9rem;
+    border-radius: 10px;
+    border: 2px solid white;
+    background: #a16cdf;
+}
+button:hover{
+    background-color: #FAAF40;
+}
+a:hover{
+    background-color: #FAAF40;
+}
+#contact{
+    float: left;
+    text-align: center;
+    font-family: 'Assistant', sans-serif;
+    padding-top: 40px;
+    margin-top:  127px;
+    background: #a16cdf;
+    width: 100%;
+}
+h1{
+    color: white;
+    padding-bottom: 15px;
+    font-size: 4rem;
+}
+#contact p{
+    font-size: 1.1em;
+    padding-bottom: 50px;
+}
+.clearfix{
+    clear: both;
+}
+.form{
+    float: left;
+    width: 50%;
+    margin-top: 50px;
+    padding-left: 60px;
+}
+.form p{
+    padding-bottom: 50px;
+}
+.team{
+    float: right;
+    width: 50%;
+    margin-top: 50px;
+    padding-right: 60px;
+}
+h2{
+    font-size: 1.7rem;
+    padding-bottom: 30px;
+    color: #b6b2f1;
+}
+h3{
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+.color_orange{
+    color: #a16cdf;
+}
+.social-media{
+    float: right;
+    width: 50%;
+    padding-right: 60px;
+    display: inline;
+}
+.C1 i{
+    float: left;
+    margin-bottom: 30px;
+    margin-right: 20px;
+}
+.C1 p{
+    margin-right: 40px;
+}
+
+input, textarea{
+    font-style: italic;
+    font-weight: 300;
+    font-size: 1em;
+    line-height: 1.35rem;
+    color: #bdc7cf;
+    padding: 0.6rem 0.8rem;
+    border: 1px solid #C0C6CC;
+    background: #fff;
+    margin: 0;
+    width: 95%;
+    border-radius: 0.4rem;
+    outline: none;
+}
+textarea{
+    resize: none;
+}
+#submit_button{
+    float: right;
+    background-color: #a16cdf;
+    margin-top: 0.5em;
+    margin-right: 2.5em;
+    font-size: 80%;
+    padding: 1rem 3rem 1rem;
+    font-weight: 700;
+    border: none;
+    border-radius: 0.3rem;
+    color: white;
+    margin-bottom: 50px;
+}
+#submit_button:hover{
+    background-color: #FAAF40;
+}
+
+footer{
+    width: 100%;
+    height: fit-content;
+    background-color: black;
+    font-family: sans-serif;
+}
+.titles{
+    float: left;
+    line-height: 1.6rem;
+    margin: 20px 40px;
+}
+.clearfix{
+    clear: both;
+}
+.titles ul{
+    list-style: none;
+}
+h5{
+    color: #ffffff;
+}
+.nav-footer{
+    color: #b7b7b7;
+    font-weight: 100;
+    text-decoration: none;
+    font-size: 0.8em;
+}
+#footertext{
+    font-size: 0.75em;
+    color: #b7b7b7;
+    font-weight: 100;
+}
+.footerlast{
+    background-color: rgb(22, 21, 21);
+    padding: 10px 50px;
+}
+.color_orange{
+    color: #F35858;
+}
+.icons i{
+    display: inline-block;
+    margin-right: 5px;
+}
+.icons #facebook{
+    width: 10px;
+    height: 20px;
+}
+.icons #twitter {
+    width: 35px;
+    height: 20px;
+}
+.icons #instagram{
+    width: 20px;
+    height: 20px;
+}
+.icons #linkedin{
+    width: 22px;
+    height: 20px;
+}
+#footerbtn{
+    margin-top: 20px;
+    border: none;
+    padding: 10px 40px;
+    background-color: #b6b2f1;
+    border-radius: 8px;
+    color: white;
+}
+#footerbtn:hover{
+    background-color: #FAAF40;
+}
+.fa-facebook-square{
+    font-size: 50px;
+    color: #a16cdf
+}
+.fa-twitter-square{
+    font-size: 50px;
+    color: #a16cdf
+}
+.fa-linkedin{
+    font-size: 50px;
+    color: #a16cdf
+}
